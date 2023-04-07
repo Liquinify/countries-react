@@ -1,0 +1,19 @@
+@use 'partials/card';
+@use 'partials/header';
+@use 'partials/themes';
+@use 'partials/controls';
+@use 'partials/details';
+@use 'partials/button';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    background-color: var(--colors-bg);
+    overflow-x: hidden;
+}
